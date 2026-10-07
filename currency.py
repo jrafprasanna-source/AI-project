@@ -3,13 +3,13 @@ import requests
 
 # Page configuration
 st.set_page_config(
-    page_title="Ramesh Currency Converter",
+    page_title="PRASANNA Currency Converter",
     page_icon="💱",
     layout="centered"
 )
 
 # Title
-st.title("💱 Ramesh Currency Converter")
+st.title("💱 PRASANNA Currency Converter")
 st.write("Convert currencies quickly using live exchange rates.")
 
 # Currency list
@@ -95,4 +95,4 @@ if st.button("🔄 Convert Currency", use_container_width=True):
 
 # Footer
 st.markdown("---")
-st.caption("© 2026 Ramesh Currency Converter")
+st.caption("© 2026 PRASANNA Currency Converter")
